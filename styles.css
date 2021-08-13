@@ -1,0 +1,102 @@
+body{
+    background-color: #e6c2ee;
+     font-family: 'Lato', sans-serif;
+   
+ }
+ .login{
+     display: flex;
+     margin: auto;
+     width: 600px;
+     height: 350px;
+     border-radius: 10px;
+ }
+ .left-side{
+     background-color: white;
+     width: 300px;
+     border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+ }
+ .titulo{
+     text-align: center;
+ }
+ 
+ .logos{
+     color: grey;
+     display:flex;
+     justify-content: center;
+ }
+ div .facebook{
+     padding: 10px;
+     margin: 10px;
+     border: grey solid 1px;
+     border-radius: 50%;
+     width:30px;
+     height: 30px;
+ }
+ 
+ div .twitter{
+     padding: 10px;
+     margin: 10px;
+     border: grey solid 1px;
+     border-radius: 50%;
+ }
+ .formulario p{
+     text-align: center;
+     margin:  5px;
+     color: grey;
+ }
+ .formulario input[type="text"]{
+    margin-top: 5px;
+    position: relative;
+    left: 15%;
+    background-color: rgb(226, 222, 222);
+    border: none;
+    width: 200px;
+    padding:5px;
+ }
+ .formulario input[type="password"]{
+     margin-top: 5px;
+     position: relative;
+     left: 15%;
+     background-color: rgb(226, 222, 222);
+     border: none;
+     width: 200px;
+    padding:5px;
+  }
+ 
+  .formulario input[type="button"]{
+  height:30px;
+  width:120px;
+  background:rgb(245, 51, 3);
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 30%;
+  margin-top: 10px;
+  }
+  .formulario p .forgot{
+      padding-top: 10px;
+  }
+ .right-side{
+     width: 300px;
+     background-color:#f74040 ;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+     flex-direction: column ;
+ }
+ .right-side {
+     color: white;
+     text-align: center;
+ }
+ .right-side h1 {
+     margin: 30px;
+     position: relative;
+     top: 50px;
+ }
+ .right-side p {
+     margin: 30px;
+     position: relative;
+     top: 50px;
+ }
+ 
